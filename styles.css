@@ -1,0 +1,43 @@
+body {
+    background-image: url("./images/grunge-stained-old-paper-texture.jpg.crdownload");
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+article {
+    width: 25%;
+    margin: 1%;
+    padding: 0% 1% 1%;
+    border: solid rgb(37, 44, 3);
+    border-style: dotted;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(226, 226, 142)
+}
+
+img {
+    width: 30%;
+    height: 40%;
+}
+
+p {
+    font-style: italic;
+    width: 80%;
+    font-size: 25px
+}
+
+h2 {
+    font-size: 60px;
+    color: brown;
+}
+
+a {
+    color: rgb(25, 32, 231);
+    font-size: 15px
+}
