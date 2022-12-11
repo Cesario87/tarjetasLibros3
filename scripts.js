@@ -82,7 +82,8 @@ for (let i = 0; i < books.length; i++) {
     newElement3.appendChild(newP5);
     const newA = document.createElement("a");
     newElement3.appendChild(newA);
-    
+    let textoEnlace = document.createTextNode(books[i].link);
+    newA.appendChild(textoEnlace);
 
     newH2.innerHTML = "BOOKS YOU MUST NOT READ BEFORE YOU DIE";
     newH3.innerHTML = books[i].title;
@@ -92,8 +93,7 @@ for (let i = 0; i < books.length; i++) {
     newP3.innerHTML = "Language: " + books[i].language;
     newP4.innerHTML = "Year: " + books[i].year;
     newP5.innerHTML = "No. of pages: " + books[i].pages;
-    //newA.innerHTML = books[i].link;
-
+    newA.href = "wiki: " + books[i].link;
 }
 
 /* MÉTODO CORTO (NO USAR AQUÍ)

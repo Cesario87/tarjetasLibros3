@@ -1,10 +1,9 @@
 body {
-    background-image: url("./images/grunge-stained-old-paper-texture.jpg.crdownload");
+    background-image: url("./images/6b7223d0def9fb19401c5758808f4178.jpg");
 }
 
 section {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 
@@ -13,17 +12,19 @@ section {
 article {
     width: 25%;
     margin: 1%;
-    padding: 0% 1% 1%;
+    padding: 0% 3% 3% 1%;
     border: solid rgb(37, 44, 3);
     border-style: dotted;
-    line-height: 30px;
+    line-height: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(226, 226, 142)
+    background-color: rgb(226, 226, 142);
+    overflow: hidden;
+    
 }
 
 img {
     width: 30%;
-    height: 40%;
+    height: 30%;
 }
 
 p {
@@ -38,6 +39,6 @@ h2 {
 }
 
 a {
-    color: rgb(25, 32, 231);
-    font-size: 15px
+    font-size: 15px;
+   
 }
